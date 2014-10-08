@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ReFresh Help  :: Home</title>
-    <link data-turbolinks-track="true" href="/assets/loader.min.css?body=1" media="all" rel="stylesheet" />
+    <link data-turbolinks-track="true" href="/assets/loader.css?body=1" media="all" rel="stylesheet" />
     <script src="/assets/vendor/modernizr.js?body=1"></script>
   </head>
   <body class=''>
