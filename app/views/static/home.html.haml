@@ -1,15 +1,23 @@
-%h1
-  Welcome to the ReFresh Ministries Help Site
-  
-%p
-  This site exists to help you configure your email account for ReFresh Ministries. Please complete the following steps in order.
+%div(class="large-12 medium-12 columns")
+  %h1(class="text-center")
+    Welcome to the ReFresh Ministries Help Site
+    
+  %p(class="text-center")
+    This site exists to help you configure your email account for ReFresh Ministries. Please change your password first.
 
-%ol
-  %li
-    %a(href="/password") Change Your Password
+
+%div(class="large-12 medium-12 columns" style="padding-top: 25px; padding-bottom: 25px;")
+  %div(class="large-4 medium-4 columns")
+    %a(href="/password")
+      %img(src="/assets/home/changepass.png" class=".left")
+      Change Your Password
+  
+  %div(class="large-4 medium-4 columns")
+    %a(href="/iphone") 
+      %img(src="/assets/home/iphone.png" class=".left")
+      Configure Your iPhone
     
-  %li
-    %a(href="/iphone") Configure Your iPhone
-    
-  %li
-    %a(href="/mail") Configure Apple Mail
+  %div(class="large-4 medium-4 columns")
+    %a(href="/mail") 
+      %img(src="/assets/home/macmail.png" class=".left")
+      Configure Apple Mail
