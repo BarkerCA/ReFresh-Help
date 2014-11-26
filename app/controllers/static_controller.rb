@@ -5,7 +5,7 @@ class StaticController < ApplicationController
   end
   
   def password
-    @page = {:title => 'Change ReFresh Password', :head_title => 'Change ReFresh Password'}
+    @page = {:title => 'Change ReFresh Password', :head_title => 'Change Password'}
   end
   
   def iphone
