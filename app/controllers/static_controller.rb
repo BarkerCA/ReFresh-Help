@@ -12,12 +12,8 @@ class StaticController < ApplicationController
     @page = {:title => 'Configure iPhone', :head_title => 'Configure iPhone'}
   end
   
-  def mail
+  def applemail
     @page = {:title => 'Configure Apple Mail', :head_title => 'Configure Apple Mail'}
-  end
-  
-  def outlook
-    
   end
   
 end
