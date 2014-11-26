@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  resources :tickets
+
   root  'static#home'
   get   'password'  => 'static#password'
   get   'iphone'    => 'static#iphone'

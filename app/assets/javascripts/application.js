@@ -15,6 +15,5 @@
 //= require turbolinks
 //= require fastclick
 //= require foundation
-//= require init
 //= require refresh-help
 //= require reftagger
