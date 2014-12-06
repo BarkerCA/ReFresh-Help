@@ -16,15 +16,6 @@ ActiveRecord::Schema.define(version: 20141126172224) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "appointments", force: true do |t|
-    t.string   "title"
-    t.date     "date"
-    t.string   "location"
-    t.text     "memo"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "tickets", force: true do |t|
     t.string   "title"
     t.string   "email"
